@@ -26,8 +26,8 @@ public class LocationsController {
     @Autowired
     RestTemplate restTemplate;
 
-    //@Autowired
-    //private HttpServletRequest context;
+    @Autowired
+    private HttpServletRequest context;
 
     @GetMapping(value = "/location")
     public Locations getLocation() {
