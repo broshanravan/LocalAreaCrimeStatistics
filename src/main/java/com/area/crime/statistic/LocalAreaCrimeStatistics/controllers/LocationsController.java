@@ -18,9 +18,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-@Configuration
+
 @EnableAutoConfiguration
-@Component
+@RestController
 public class LocationsController {
 
     @Autowired
